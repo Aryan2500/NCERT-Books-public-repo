@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477520524715",
+    "project_id": "ncert-books-b22c1",
+    "storage_bucket": "ncert-books-b22c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477520524715:android:38c4d717415f160943ceee",
+        "android_client_info": {
+          "package_name": "com.virtual4vibe.ncertbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477520524715-1ja303kqfkrf05btc3ppqsrrb36lcbod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9lLwENuvDGtW6CiTJayNNCJVgwVfoumY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477520524715-1ja303kqfkrf05btc3ppqsrrb36lcbod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

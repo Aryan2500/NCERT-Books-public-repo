@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_rv_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+   android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:orientation="vertical"
+    android:foreground="@drawable/ripple"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="4dp"
+     >
+
+    <LinearLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="4dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bookIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="6dp"
+            android:gravity="center"
+            android:text="Sample Paper"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
